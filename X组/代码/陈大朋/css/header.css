@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-width: 1343px;
+	height: 726px;
+}
+.header .nav{
+	width: 100%;
+	height: 72px;
+	background-color: #000000;
+}
+.header .nav .logo{
+	width: 198px;
+	height: 121px;
+	background-color: #551A8B;
+	background-color: transparent;
+	position:  relative;
+	margin-left: 300px;
+	float: left;
+	
+}
+.header .header_back{
+	width:100%;
+	height: 1000px;
+	margin: -146px 0px 0px ;
+	background-image: url(../img/pic_080.jpg);
+}

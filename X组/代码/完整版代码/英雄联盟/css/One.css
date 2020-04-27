@@ -1,0 +1,84 @@
+
+.one {
+	/* width: 100%; */
+	width: 1900px;
+	min-width: 1400px;
+	height: 320px;
+	margin: 0 auto 20px;
+	background: url(../img/1/1.jfif) no-repeat;
+	/* 需要注释掉 */
+	/* 给背景图片 */
+	/* background-color: red; */
+	/* background-image: url("img/1/1.jpg"); */
+}
+/* .four{
+	width: 1358px;
+	min-width: 1200px;
+	height:254px;
+	margin: 20px auto;
+	/* 需要注释 */
+	/* background-color: magenta; */
+
+
+.one .one_1{
+	size: 40px;
+	width: auto;
+	/* max-width: 1920px; */
+	/* min-width: 1200px; */
+	height: 78px;
+	margin: 0 auto;
+	text-align: center;
+	/* float: right; */
+	margin: 0 auto;
+	/* 透明的渐变 */
+	background: -webkit-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+	/* background-color: rgba(0,0,0,0.2); */
+}
+.one .one_1 .one_1_1{
+	/* min-width: 1200px; */
+	width: 1220px;
+	/* width: auto; */
+	height: 100%;
+	margin: 0 auto;
+	/* background-color: #40E0D0; */
+}
+.one .one_1 .one_1_1 a{
+	font-size: 22px;
+	float: left;
+	color: #fff;
+	padding: 0 40px;
+}
+.one .one_1 .one_1_1 a span{
+	/* width: 100%; */
+	display: block;
+	/* color: black; */
+	margin: 0 auto;
+	/* padding: 0 40px; */
+}
+.x{
+	font-size: 16px;
+	color: rgb(174,174,174);
+}
+.one .one_1 .one_1_1 a img{
+	margin-top: -5px;
+	float: left;
+}
+.one .one_1:hover{
+	
+}
+.one .one_1 .one_1_2{
+	/* min-width: 1200px; */
+	width: 160px;
+	height: auto;
+	margin: 212px auto;
+	/* margin: 0 auto 0px; */
+	/* margin-bottom: 0px; */
+	/* position: relative;
+	/* bottom: 0px; */
+	/* left: 100px/* ; */
+	/* bottom: 100px; */ 
+	font-size: 20px;
+	color: rgb(200,155,47);
+	background-color:rgba(0,0,0,0.5);
+	border:1px solid rgb(200,155,47)
+}

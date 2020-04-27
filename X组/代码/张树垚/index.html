@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="assets/flat-ui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
+
+		<link rel="stylesheet" type="text/css" href="css/operator__header.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		
+		<script src="js/1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+
+		<div class="top-nav">
+					<div class="top_head">
+						<ul>
+					<li><a href="../main.html">失落城堡</a></li>
+					<li><a href="../战舰世界/index.html">战舰世界</a></li>
+					<li><a href="../穿越火线/主页.html">穿越火线</a></li>
+					<li><a href="../英雄联盟/index.html">英雄联盟</a></li>
+					<li><a href="../王者荣耀/index.html">王者荣耀</a></li>
+					<li><a href="../逆战/index.html">逆战</a></li>
+						</ul>
+						<h1>彩虹六号</h1>
+					</div>
+		</div>
+
+		<div class="content">
+			<link rel="stylesheet" type="text/css" href="assets/waifu1.css" />
+			<!-- waifu-tips.js 依赖 JQuery 库 -->
+			<script src="assets/jquery.min.js?v=3.3.1"></script>
+
+			<!-- 实现拖动效果，需引入 JQuery UI -->
+			<script src="assets/jquery-ui.min.js?v=1.12.1"></script>
+
+			<div class="waifu" id="waifu">
+				<div class="waifu-tips" style="opacity: 1;"></div>
+				<canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+				<div class="waifu-tool">
+					<span class="fui-home"></span>
+					<span class="fui-chat"></span>
+					<span class="fui-eye"></span>
+					<span class="fui-user"></span>
+					<span class="fui-photo"></span>
+					<span class="fui-info-circle"></span>
+					<span class="fui-cross"></span>
+				</div>
+			</div>
+
+
+			<script src="assets/waifu-tips.js"></script>
+			<!-- <script src="assets/waifu-tips.js"></script> -->
+
+			<script src="assets/live2d.min.js"></script>
+
+			<script type="text/javascript">
+				initModel()
+			</script>
+
+
+			<div class="sticky-nav fixed">
+				<a id="a1" class="jump"><span>Main</span></a>
+				<a id="a2" class="jump"><span>select</span></a>
+				<a id="a3" class="jump"><span>operator</span></a>
+
+			</div>
+			<div class="content_head" id="content_head">
+				<div class="vido">
+					<video class="looping-video" id="true" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" src="https://videos.ctfassets.net/p0f8o8d25gmk/4PRvTGLQiBFUdEnMZ9L5rQ/1a14075ce88de7450d19b478fa45a345/r6s-header-patchnotes-void-edge.mp4"></video>
+					<img src="img/r6s-voidedge-logo-title.webp">
+				</div>
+			</div>
+			<div class="wrap">
+				<div class="pic1 pic">
+					
+				</div>
+				<div class="pic2 pic">
+					
+				</div>
+				<div class="pic3 pic">
+					
+				</div>
+				<div class="pic4 pic">
+					
+				</div>
+				<div class="pic5 pic">
+					
+				</div>
+				<div class="pic6 pic">
+					
+				</div>
+			</div>
+			<div class="select" id="select">
+				<h2 data-innertext="SELECT YOUR OPERATOR">选择你的干员</h2>
+			</div>
+			<div class="operators__nav operators-browser">
+
+				<div class="operators__nav__title">
+					<span>ATTACK</span>
+				</div>
+				<div class="oplist__cards__wrapper">
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6s-operator-list-iana.jpg" alt="Iana"><span>IANA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-kali_358317.jpg" alt="KALI"><span>KALI</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-amaru.jpg" alt="AMARU"><span>AMARU</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-nokk.jpg" alt="NØKK"><span>NØKK</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-gridlock.jpg" alt="GRIDLOCK"><span>GRIDLOCK</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-nomad.jpg" alt="NOMAD"><span>NOMAD</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-maverick.jpg" alt="MAVERICK"><span>MAVERICK</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-lion.jpg" alt="LION"><span>LION</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-finka.jpg" alt="FINKA"><span>FINKA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-dokkaebi.jpg" alt="DOKKAEBI"><span>DOKKAEBI</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-zofia.jpg" alt="ZOFIA"><span>ZOFIA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-ying.jpg" alt="YING"><span>YING</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-jackal.jpg" alt="JACKAL"><span>JACKAL</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-hibana.jpg" alt="HIBANA"><span>HIBANA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-capitao.jpg" alt="CAPITAO"><span>CAPITAO</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-blackbeard.jpg" alt="BLACKBEARD"><span>BLACKBEARD</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-buck.jpg" alt="BUCK"><span>BUCK</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-sledge.jpg" alt="SLEDGE"><span>SLEDGE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-thatcher.jpg" alt="THATCHER"><span>THATCHER</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-ash_317253.jpg" alt="ASH"><span>ASH</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-thermite.jpg" alt="THERMITE"><span>THERMITE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-montagne.jpg" alt="MONTAGNE"><span>MONTAGNE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-twitch.jpg" alt="TWITCH"><span>TWITCH</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-blitz.jpg" alt="BLITZE"><span>BLITZE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-iq.jpg" alt="IQ"><span>IQ</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-fuze.jpg" alt="FUZE"><span>FUZE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-glaz.jpg" alt="GLAZ"><span>GLAZ</span></a></div>
+				</div>
+
+				<div class="operators__nav__title2">
+					<span>DEFENS</span>
+				</div>
+
+				<div class="OperatorHeaderView">
+
+				</div>
+
+				<div class="oplist__cards__wrapper">
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6s-operator-list-oryx.jpg" alt="ORYX"><span>ORYX</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-wamai_358318.jpg" alt="WAMAI"><span>WAMAI</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-goyo.jpg" alt="GOYO"><span>GOYO</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-warden.jpg" alt="WARDEN"><span>WARDEN</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-mozzie_343537.jpg" alt="MOZZIE"><span>MOZZIE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-kaid.jpg" alt="KAID"><span>KAID</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-clash.jpg" alt="CLASH"><span>CLASH</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-maestro.jpg" alt="MAESTRO"><span>MAESTRO</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-alibi.jpg" alt="ALIBI"><span>ALIBI</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-vigil.jpg" alt="VIGIL"><span>VIGIL</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-ela.jpg" alt="ELA"><span>ELA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-lesion.jpg" alt="LESION"><span>LESION</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-mira.jpg" alt="MIRA"><span>MIRA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-echo.jpg" alt="ECHO"><span>ECHO</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-caveira.jpg" alt="CAVEIRA"><span>CAVEIRA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-valkyrie.jpg" alt="VALKYRIE"><span>VALKYRIE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-frost.jpg" alt="FROST"><span>FROST</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-mute.jpg" alt="MUTE"><span>MUTE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-smoke.jpg" alt="SMOKE"><span>SMOKE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-castle.jpg" alt="CASTLE"><span>CASTLE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-pulse.jpg" alt="PLUSE"><span>PLUSE</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-doc.jpg" alt="DOC"><span>DOC</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-rook.jpg" alt="ROOK"><span>ROOK</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-jager.jpg" alt="JAGER"><span>JAGER</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-bandit.jpg" alt="BANDIT"><span>BANDIT</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-tachanka.jpg" alt="TACHANKA"><span>TACHANKA</span></a></div>
+					<div class="operator_div"><a class="oplist__card" href=""><img src="img/operator/r6-operators-list-kapkan.jpg" alt="KAPKAN"><span>KAPKAN</span></a></div>
+				</div>
+
+
+			</div>
+
+			<div class="operator__header" id="operator__header">
+				<div class="operator__header__icons__names">
+					<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6deSi1vse5iJTkErFksrGq/5b116e90bae5c039e4db5e6150c33cd2/r6s-operator-badge-iana.png"
+					 alt="Iana icon">
+					<h1>Iana</h1>
+					<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Gxn0nq1pzhxds4FSfZd1U/126698570cb5ae6f54dcb67e0bd65903/flag-nl.png" alt="Iana faction">
+					<h2>REU</h2>
+				</div>
+				<div class="operator__header__infos">
+					<div class="operator__header__side__wrapper">
+						<div class="operator__header__side__title"><span>Side</span></div>
+						<div class="operator__header__side__detail attacker"><span>Attacker</span></div>
+					</div>
+					<div class="operator__header__roles">
+						<div class="operator__header__role"><span>Role</span></div>intel-denier, intel-gatherer
+					</div>
+					<div class="operator__header__stats">
+						<div class="operator__header__stat">
+							<div class="operator__header__stat__title"><span>Armor</span></div>
+							<div class="react-rater">
+								<div>
+									<div class="react-rater-star is-active"></div>
+								</div>
+								<div>
+									<div class="react-rater-star is-active"></div>
+								</div>
+								<div>
+									<div class="react-rater-star is-disabled"></div>
+								</div>
+							</div>
+						</div>
+						<div class="operator__header__stat">
+							<div class="operator__header__stat__title"><span>Speed</span></div>
+							<div class="react-rater">
+								<div>
+									<div class="react-rater-star is-active"></div>
+								</div>
+								<div>
+									<div class="react-rater-star is-active"></div>
+								</div>
+								<div>
+									<div class="react-rater-star is-disabled"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="promo operator__ability__row  promo--seen promo--enter-done" >
+					<div class="promo__wrapper">
+						<div class="promo__wrapper__media"></div>
+						<div class="promo__wrapper__content">
+							<h2 data-innertext="UNIQUE ABILITIES AND PLAYSTYLE">UNIQUE ABILITIES AND PLAYSTYLE</h2>
+							<p>The Gemini Replicator is a remotely-controlled holographic copy of Iana. It can move and produces sound like
+								she would, but it cannot shoot, melee or use secondary gadgets. It has a time limit, or it can be exited at any
+								time. There is always a cooldown between two uses, which is longer if it’s destroyed.</p>
+							<p>The Replicator is all about fooling Iana’s opponents and collecting information. During its deployment, she
+								can find her opponents and cause confusion to her heart’s content. If the Gemini is spotted and destroyed, it
+								can help Iana deduce the threat’s location, but it will buy her opponents a few precious seconds to reposition.</p>
+							<button type="button" class="btn btn-primary promo__wrapper__content__btn mp4-modal">
+								<img class="" src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4PFjj9dtbO18r5MzEvUmkw/df2c332d9f88d56ff73047b8b92b28a2/r6s-operator-video-ability-iana.jpg"
+								 loading="lazy">
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="operator__loadout">
+					<h2 class="operator__loadout__title"><span>Loadout</span></h2>
+					<div class="operator__loadout__category">
+						<h2 class="operator__loadout__category__title"><span>Primary Weapon</span></h2>
+						<div class="operator__loadout__category__items">
+							<div class="operator__loadout__weapon">
+								<p>ARX200</p>
+								<div class="media"><img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6VgkPBsr1WApI3rWc9kcM0/b18b8e25f3e951e8e722213f2ee59eb0/ARX200.png" loading="lazy">
+								</div>
+								<p>ASSAULT RIFLE</p>
+							</div>
+							<div class="operator__loadout__weapon">
+								<p>G36C</p>
+								<div class="media"><img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2SZoqSXKoNPvZFIJsFsDE5/cb109885bf19c8697abf832f10cfd9a6/G36C.png" loading="lazy">
+								</div>
+								<p>ASSAULT RIFLE</p>
+							</div>
+						</div>
+					</div>
+					<div class="operator__loadout__category">
+						<h2 class="operator__loadout__category__title"><span>Secondary Weapon</span></h2>
+						<div class="operator__loadout__category__items">
+							<div class="operator__loadout__weapon">
+								<p>Mk1 9mm</p>
+								<div class="media"><img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3tWoNeF3jQYs3w4EOydQYs/434409c96693df1fd3e969d778e70795/Mk1_9mm_BI.png" loading="lazy">
+								</div>
+								<p>HANDGUN</p>
+							</div>
+						</div>
+					</div>
+					<div class="operator__loadout__category">
+						<h2 class="operator__loadout__category__title"><span>Gadget</span></h2>
+						<div class="operator__loadout__category__items">
+							<div class="operator__loadout__weapon">
+								<p>Frag Grenade</p>
+								<div class="media">
+									<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4GZsPHbm9H0k5EWz7TMkwO/33b9007bc6ee03dab15cfa15eb69e096/Frag_Grenade.png" loading="lazy">
+								</div>
+								<p></p>
+							</div>
+							<div class="operator__loadout__weapon">
+								<p>Smoke Grenade</p>
+								<div class="media"><img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3LaxoSLC49T5vgKnUAlTLT/c47c4636845a04478432c48be8c29aee/Smoke_Grenade.png" loading="lazy">
+								</div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="operator__loadout__category">
+						<h2 class="operator__loadout__category__title"><span>Unique Ability</span></h2>
+						<div class="operator__loadout__category__items">
+							<div class="operator__loadout__weapon">
+								<p>GEMINI REPLICATOR</p>
+								<div class="media"><img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/K8E4EHWbD8wTjVqro6wVl/62339b2fbe1d3a2319dcd320f7a0b070/r6s-operator-ability-iana.png" loading="lazy"></div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="operator__biography">
+
+					<div class="operator__biography__video">
+						<button type="button" class="btn btn-primary promo__wrapper__content__btn youtube-modal">
+							<img class="datu" src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/508XYT3eN9TP1t6d0yCPCl/8a019365afd28625bfeaf621a64db001/r6s-voidedge-bg-characters-01.jpg" loading="lazy">
+						</button></div>
+
+				</div>
+
+			</div>
+		</div>
+	
+
+		<audio src="music/1.mp3" id="aud" autoplay="autoplay" controls="controls" preload="auto" loop="loop"></audio>
+
+		<div class="modal is-showing" id="modal" style="display: none;">
+			<div class="modal__header">
+				<button class="modal__header__closeBtn" id="button" type="button" tabindex="0">
+					<svg class="icon icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="title">
+						<title id="title">Close</title>
+						<path d="M18.984 6.422l-5.578 5.578 5.578 5.578-1.406 1.406-5.578-5.578-5.578 5.578-1.406-1.406 5.578-5.578-5.578-5.578 1.406-1.406 5.578 5.578 5.578-5.578z"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="modal__body">
+				<div class="media" id="showtv">
+					<video class="looping-video" id="true" autoplay="autoplay" playsinline="" loop="" type="video/mp4" src="https://videos.ctfassets.net/p0f8o8d25gmk/5dwRdYmg4M9CWvpV0aBZKe/74e41b013e54443c839e73c9cb9430ee/r6s-operator-video-ability-iana.mp4" draggable="true"></video>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal is-showing" id="modal1" style="display: none;">
+			<div class="modal__header">
+				<button class="modal__header__closeBtn" id="button1" type="button" tabindex="0">
+					<svg class="icon icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="title">
+						<title id="title">Close</title>
+						<path d="M18.984 6.422l-5.578 5.578 5.578 5.578-1.406 1.406-5.578-5.578-5.578 5.578-1.406-1.406 5.578-5.578-5.578-5.578 1.406-1.406 5.578 5.578 5.578-5.578z"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="modal__body">
+				<div class="media1"><iframe id="true1" frameborder="0" title="YouTube video Am2Z-Slz7Ks" width="100%" height="100%" src="" allow="autoplay; fullscreen"></iframe></div>
+			</div>
+		</div>
+
+	</body>
+</html>

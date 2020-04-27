@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li,a{
+	cursor: pointer;
+}
+.min1{
+	width: 100%;
+	min-width: 1200px;
+	height: 420px;
+	background-image: url(../img/bg.jpg);
+}
+.min1 .con{
+	width: 1240px;
+	height: 100%;
+	margin: 0 auto;
+}
+.min1 .con .left{
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.min1 .con .right{
+	margin-top: 20px;
+	width: 800px;
+	height: 400px;
+	float: right;
+}
+.min1 .con .right ul{
+	list-style: none;
+}
+.min1 .con .right ul li{
+	display: none;
+}
+.min1 .con .right ul #i1{
+	display: block;
+}
+.min1 .con .left a{
+	display: block;
+	width: 400px;
+	height: 69px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+}
+.min1 .con .left a p{
+	display: block;
+	line-height: 60px;
+}
+.min1 .con .left a:hover{
+	background-color: rgba(0,0,0,0.2);
+	color: coral;
+}
+.min1 .con .left #a1{
+	display: block;
+	font-size: 30px;
+	height: 120px;
+	width: 400px;
+	background-color: #FF7F50;
+	border-radius: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+.min1 .con .left #a1 p{
+	display: block;
+	line-height: 120px;
+	color: white;
+}
+.min1 .con .left #a1 p:hover{
+	color: aqua;
+}
+.min2{
+	width: 100%;
+	min-width: 1240px;
+	height: 400px;
+	background-image: url(../img/bg.jpg);
+}
+.min2 .content{
+	width: 1260px;
+	height: 400px;
+	margin: 0 auto;
+}
+.min2 .content .top{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	line-height: 90px;
+	position: relative;
+}
+.min2 .content .top img{
+	float: left;
+	position: absolute;
+	left: 490px;
+	top: 10px;
+}
+.min2 .content .low{
+	width: 100%;
+	height: 340px;
+	position: relative;
+}
+.min2 .content .low ul{
+	list-style: none;
+	position: absolute;
+	top: 100px;
+}
+.min2 .content .low ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.min2 .content .low ul li p{
+	font-size: 20px;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+.min2 .content .low ul li:hover{
+	color: #00FFFF;
+}
+.min1 .con .left #a1 #div1{
+	z-index: 99;
+	font-size: 20px;
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 10px;
+	left: 400px;
+	background-color: coral;
+	display: none;
+}
+.min1 .con .left #a1 #p1{
+	line-height: 20px;
+}
+.min1 .con .left #a1:hover #div1{
+	display: block;	
+}

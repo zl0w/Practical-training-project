@@ -1,0 +1,311 @@
+.operator__header {
+	background: url(../img/operato-head/r6s-operator-iana.webp);
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 11% 0 0;
+	background-position: 90% 0%;
+	border-bottom: 1px solid #333740;
+}
+
+.operator__header__icons__names {
+	cursor: default;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 1.5625rem;
+	letter-spacing: 0;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	font-family: noto_light, sans-serif;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 75%;
+	max-width: 1150px;
+	display: flex;
+	align-items: center;
+}
+
+.operator__header__infos {
+	cursor: default;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 1.5625rem;
+	letter-spacing: 0;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	font-family: noto_light, sans-serif;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 75%;
+	max-width: 1150px;
+	position: relative;
+	z-index: 1;
+	padding: 15px 0;
+}
+
+.operator__header__side__wrapper div {
+	display: flex;
+	align-items: center;
+}
+
+.operator__header__roles {
+	width: 50%;
+	margin: 10px 0 0;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+.operator__header__roles .operator__header__role {
+	display: block;
+	height: 30px;
+	border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+}
+
+.operator__header__stats {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin: 10px 0 0;
+}
+
+.operator__header__stats .operator__header__stat {
+	width: 31%;
+}
+
+.operator__header__stats .operator__header__stat .operator__header__stat__title {
+	display: flex;
+	height: 30px;
+	margin: 0 0 5px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+}
+
+.operator__header__stats .operator__header__stat .react-rater>div {
+	margin: 0 5px 0 0;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.operator__header__stats .operator__header__stat .react-rater-star:before {
+	width: 20px;
+	height: 20px;
+	border: 2px solid hsla(0, 0%, 100%, .25);
+}
+
+.react-rater-star {
+	position: relative;
+}
+
+.operator__header__stats .operator__header__stat .react-rater-star:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	border-radius: 50%;
+}
+
+.operator__header__stats .operator__header__stat .react-rater-star.is-active:after {
+	background-color: #fff;
+	margin: 5px;
+	width: 10px;
+	height: 10px;
+	content: "";
+	position: absolute;
+	left: 2PX;
+	top: 2PX;
+	display: flex;
+	border-radius: 50%;
+}
+
+.operator__header .operator__ability__row {
+	background: rgba(10, 15, 20, .75);
+	border-top: 1px solid hsla(0, 0%, 100%, .15);
+}
+
+.operator__header .operator__ability__row .promo__wrapper {
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
+.promo__wrapper {
+	margin: 0 auto;
+	width: 75%;
+	max-width: 1150px;
+}
+
+.operator__header .operator__ability__row .promo__wrapper__media {
+	display: none;
+}
+
+.operator__header .operator__ability__row .promo__wrapper__content {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 0 0 0 350px;
+	min-height: 180px;
+}
+
+.operator__header .operator__ability__row .promo__wrapper__content:before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 320px;
+	height: 180px;
+	background-color: rgba(0, 0, 0, .25);
+	border: 1px solid #333740;
+}
+
+.operator__header .operator__ability__row .promo__wrapper__content .btn {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 320px;
+	height: 180px;
+}
+
+.operator__header .operator__ability__row .promo__wrapper__content .btn img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.operator__header .operator__ability__row:not(.operator__ability__row__noActionButton) .btn::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bofang.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 18% 30%;
+
+}
+
+.operator__header .operator__ability__row:not(.operator__ability__row__noActionButton) .btn:hover::after {
+	border: 1px solid turquoise;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bofang2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 18% 30%;
+}
+
+.operator__loadout {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 3.785% 0;
+	background: #0d0d0d url(https://static-dm.akamaized.net/siege/prod/r6s-bg-black.jpg) 0 0;
+	background-size: 100%;
+}
+
+.operator__loadout__title {
+	width: 100%;
+	text-align: center;
+	margin: 0 0 30px;
+	font-size: 50px;
+}
+
+.operator__loadout__category {
+	width: 25%;
+	width: 22.5%;
+	padding: 0 15px;
+}
+
+.operator__loadout__weapon:first-child {
+	margin: 0;
+}
+
+.operator__loadout__weapon {
+	position: relative;
+	margin: 15px 0 0;
+	padding: 0 0 40px;
+	background-color: #000;
+	border: 1px solid rgba(54, 169, 224, .5);
+	text-align: center;
+}
+
+.operator__loadout__category__title {
+	color: #7a7e87;
+	font-weight: 800;
+}
+
+.operator__loadout__weapon p:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 15px;
+	line-height: .9375rem;
+	letter-spacing: 0;
+	text-align: center;
+}
+.operator__biography{
+	width: 100%;
+	text-align: center;
+}
+.btn-primary {
+	width: 100%;
+	position: relative;
+	border: 1px solid turquoise;
+}
+.btn-primary img{
+	width: 100%;
+}
+.datu{
+
+}
+
+.operator__biography__video .btn::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+
+	background-image: url(../img/bofang.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 15% 30%;
+}
+.operator__biography__video .btn:hover::after{
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	
+	background-image: url(../img/bofang2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 15% 30%;
+}

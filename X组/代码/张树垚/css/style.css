@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+/* wrap */
+.wrap {
+	margin: 50px auto;
+	width: 1134px;
+	height: 437px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pic {
+	width: 679px;
+	height: 437px;
+	cursor: pointer;
+}
+
+.pic1 {
+	background: url('../img/t1.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	
+}
+
+.pic2 {
+	background: url('../img/t2.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 679px;
+	z-index: 3;
+}
+
+
+
+.pic3 {
+	background: url('../img/t3.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 770px;
+	z-index: 5;
+}
+
+
+.pic4 {
+	background: url('../img/t4.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 861px;
+	z-index: 7;
+}
+
+
+.pic5 {
+	background: url('../img/t5.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 952px;
+	z-index: 9;
+}
+
+.pic6 {
+	background: url('../img/t6.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 1043px;
+	z-index: 11;
+}
+

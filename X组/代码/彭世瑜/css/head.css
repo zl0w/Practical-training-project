@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+.top-nav{
+	width: 100%;
+	
+	/* 你的封面图 */
+	background-image: url(../img/432141495000169.jpg);
+	
+	/* 调整图片缩放 */
+	background-size: 110%;
+	
+	/* 调整图片偏移 x% y% */
+	background-position: 50% 40%;
+	
+	height: 300px;
+	min-width: 1200px;
+	transition: all .5s ease;
+}
+
+.top-nav:hover{
+	
+	/* 鼠标放上去后的调整图片缩放 */
+	background-size: 100%; 
+	
+	transition: all .5s ease;
+}
+
+
+.top-nav .top_content{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: all .5s ease;
+}
+
+.top-nav:hover .top_content{
+	background-color: rgba(0,0,0,0.5);
+	transition: all .5s ease;
+}
+
+.top-nav .top_content ul{
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.top-nav .top_content ul li a{
+	font-size: 20px;
+	font-weight: 800;
+	color: #ffffff;
+	margin: 0 25px;
+}
+
+.top-nav .top_content h1{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 170px;
+	font-size: 80px;
+	letter-spacing: 20px;
+	color: #FFFFFF;
+}
+.vido{
+	width: 1200px;
+	height: 500px;
+	background-color: tomato;
+	margin: 0 auto;
+}
+.vido .CF_vido{
+	width: 1200px;
+	height: 500px;
+	background-color: black;
+}

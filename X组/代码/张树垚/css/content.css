@@ -1,0 +1,149 @@
+.content {
+	width: 100%;
+	min-width: 1200px;
+	background-color: #000;
+}
+
+.sticky-nav.fixed {
+	position: fixed;
+	left: 0px;
+	top: 450px;
+	z-index: 999
+}
+
+.sticky-nav {
+	display: flex;
+	flex-direction: column;
+	font-size: 25px;
+	line-height: 25px;
+	line-height: 1.5625rem;
+	letter-spacing: 0;
+	font-weight: 400;
+}
+
+.sticky-nav a {
+	padding: 10px 0;
+
+}
+
+.content .content_head {
+	width: 100%;
+	overflow: hidden;
+}
+
+.vido {
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+}
+
+.vido video {
+	width: 100%;
+	min-width: 1200px;
+	object-fit: fill;
+	display: block;
+}
+
+.vido img {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 70vw;
+}
+
+.select {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.select h2 {
+	color: white;
+	font-size: 40px;
+	margin-top: 20px;
+
+}
+
+.operators-browser {
+	text-align: center;
+	margin: 0 auto;
+	    width: 75%;
+	    max-width: 1150px;
+}
+
+.operators__nav__title ::before {
+	content: "";
+	display: inline-block;
+	margin: 0 5px;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	border: 1px solid hsla(0, 0%, 100%, .25);
+	color: #FFFFFF;
+	background: url(../img/实兵交战系统.png) 50% no-repeat;
+	background-size: 80%;
+}
+
+.operators__nav__title2 ::before {
+	content: "";
+	display: inline-block;
+	margin: 0 5px;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	border: 1px solid hsla(0, 0%, 100%, .25);
+	color: #FFFFFF;
+	background: url(../img/堡垒.png) 50% no-repeat;
+	background-size: 80%;
+}
+
+.oplist__cards__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    padding: 1.8925% 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: visible;
+}
+.oplist__cards__wrapper div {
+	/* border: 1px solid purple; */
+    margin: 5px;
+    width: 90px;
+	
+	/* display: flex; */
+}
+.oplist__card:hover {
+    z-index: 10;
+    border: 1px solid #36a9e0;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    box-shadow: 0 0 10px 1px #36a9e0;
+}
+.oplist__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333740;
+    overflow: hidden;
+   transition: all .3s ease;
+}
+.oplist__card :hover{
+	width: 150%;
+}
+.oplist__card span{
+	height: 25px;
+	background-color: #333740;
+	color: white;
+	font-size: 12px;
+	line-height: 25px;
+}
+.oplist__card img{
+	background-color: #333740;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
